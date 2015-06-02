@@ -1,0 +1,138 @@
+body{
+	font-family: 'Abel', sans-serif;
+	/*background-color: black;*/
+}
+
+ul{
+	list-style: none;
+}
+
+.navmain{
+	padding: 0.5em 1em;
+	background-color: white;
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+
+#navme,
+.navmain li{
+	text-transform: uppercase;
+}
+
+#navme:hover,
+.navmain li:hover{
+	color:#858585;
+}
+
+#navme{
+	cursor: pointer;
+	width:100%;
+}
+
+#parents,
+#siblings{
+	max-height: 0em;
+	overflow: hidden;
+	-webkit-transition: max-height 0.8s ease-out;
+	-moz-transition: max-height 0.8s ease-out;
+    transition: max-height 0.8s ease-out;
+    cursor: pointer;
+}
+
+#parents{
+	font-size: 0.8em;
+	line-height: 1em;
+}
+
+#siblings{
+	margin-left: 1em;
+}
+
+#parents.extended,
+#siblings.extended{
+	height:auto;
+	max-height: 20em;
+}
+
+.content{
+	padding:0em 1em; 
+}
+
+#home{
+
+}
+#home-streams{
+
+}
+#home-streams-goods{
+
+}
+#home-streams-activities
+
+}
+#home-streams-recipes{
+}
+
+#home-streams-recipes .recipe{
+	cursor: pointer;
+}
+
+#home-streams-recipes .recipe-title{
+	padding: 0.5em;
+}
+
+#home-streams-recipes img{
+	width:100%;
+	margin-bottom: 1em;
+}
+#home-streams-recipes-create{
+
+}
+#home-streams-recipes-add{
+
+}
+#home-notifications{
+
+}
+#home-share{
+
+}
+#home-stuff{
+
+}
+#home-profile{
+
+}
+#home-settings{
+
+}
+
+/*for non phones*/
+@media only screen and (min-width: 741px){
+	
+	.navmain{
+		width:400px;
+		margin: auto;
+		margin-top: 2em;
+		border-left: 1px solid;
+		border-right: 1px solid;
+		border-top: 1px solid;
+	}
+
+	.container{
+		width:400px;
+		margin:auto;
+		border-left: 1px solid;
+		border-right: 1px solid;
+	}
+
+	.whitespace{
+		width:400px;
+		margin:auto;
+		border-left: 1px solid;
+		border-right: 1px solid;
+		height: 20em;
+		border-bottom: 1px solid;
+		margin-bottom: 2em;
+	}
+}
